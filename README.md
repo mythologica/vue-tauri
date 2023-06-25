@@ -37,11 +37,16 @@ $ cd vue-tauri && pnpm update && cd ./src-tauri/ && cargo update && cd ../
 $ pnpm tauri dev
 ```
 
+## vue-router
+```shell
+$ pnpm install vue-router@4
+```
+
 ## tailwindcss (options)
 ```shell
-pnpm install -D tailwindcss postcss autoprefixer
+$ pnpm install -D tailwindcss postcss autoprefixer
 
-npx tailwindcss init -p
+$ npx tailwindcss init -p
 ```
 
 ### tailwind.config.js 수정
@@ -71,4 +76,11 @@ export default {
     <h1 class="text-3xl font-bold underline">
         Hello world!
     </h1>
+```
+### free  fortawesome
+
+```javascript
+pnpm i --save @fortawesome/free-solid-svg-icons
+pnpm i --save @fortawesome/free-regular-svg-icons
+pnpm i --save @fortawesome/free-brands-svg-icons
 ```

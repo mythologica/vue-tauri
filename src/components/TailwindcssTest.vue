@@ -3,7 +3,7 @@
 
 <template>
     <h1 class="text-3xl font-bold underline">
-        Hello world!
+        Tailwindcss
     </h1>
     <div class="space-y-4">
         <div class="w-96 bg-purple-400 shadow rounded">
