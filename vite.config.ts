@@ -26,6 +26,8 @@ export default defineConfig(async () => ({
     sourcemap: !!process.env.TAURI_DEBUG,
   },
   resolve: {
-    alias: { "@": path.resolve(__dirname, "./src"), },
+    alias: [
+      { find: "@", replacement: path.resolve(__dirname, "src") },
+    ],
   },
 }));
