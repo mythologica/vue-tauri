@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import MainFrame from "@/layouts/main/MainFrame.vue";
 </script>
 
 <template>
